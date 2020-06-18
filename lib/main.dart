@@ -4,6 +4,8 @@ import 'package:ps_goodbot/screens/screen_advise.dart';
 import 'package:ps_goodbot/screens/screen_help.dart';
 import 'package:ps_goodbot/screens/screen_options.dart';
 import 'package:ps_goodbot/screens/screen_questions.dart';
+import 'package:ps_goodbot/screens/screen_bot_about.dart';
+import 'package:ps_goodbot/screens/screen_chat.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,9 +18,10 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => HomeBot(),
         '/bot_opcoes': (context) => ScreenOptions(),
-        '/bot_questoes': (context) => ScreenQuestions(),
+        '/bot_questoes': (context) => ScreenChat(),
         '/bot_ajuda': (context) => ScreenHelp(),
         '/bot_aconselhe_alguem': (context) => ScreenAdvise(),
+        '/bot_about': (context) => ScreenBotAbout(),
       },
      
     );
