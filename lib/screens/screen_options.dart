@@ -35,7 +35,7 @@ class _ScreenOptionsState extends State<ScreenOptions> {
                       child: Text("SOBRE MIM")
                     ),
                     onPressed: (){
-                      Navigator.pushNamed(context,"/about_me",arguments: username);
+                      Navigator.pushNamed(context,"/bot_about",arguments: username);
                     },
                   ),
                 ),
