@@ -26,11 +26,14 @@ class MensagemRepository {
       ],
     );
 
+
     // Converte a lista de Maps para Lista de Cursos
     List<MensagemModel> listaCursos = new List<MensagemModel>();
+
     for (Map i in result) {
       listaCursos.add(MensagemModel.fromMap(i));
     }
+    listaCursos = listaCursos.reversed.toList();
 
     return listaCursos;
   }

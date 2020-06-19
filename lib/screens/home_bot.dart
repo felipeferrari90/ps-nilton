@@ -24,9 +24,9 @@ class _HomeBotState extends State<HomeBot> {
           body: Column( 
           children: <Widget>[
              Center(
-                child: Center( 
+                child: /*Center( 
                   child: Image.asset("../assets/images/robo.png", scale: 0.15),
-                ),
+                ),*/Text("Aqui fica a imagem do robo")
              ),
              SizedBox(
                 height: 100.0,
