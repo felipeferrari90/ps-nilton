@@ -1,16 +1,14 @@
-# ps_goodbot
+# PS-NILTON
 
-A new Flutter project.
+Chatbot criado em Flutter para prestar auxilio psicológico para pessoas em quarentena.
 
-## Getting Started
+## Integrantes do grupo
 
-This project is a starting point for a Flutter application.
+Matheus Victor Almeida
+RM: 81555
 
-A few resources to get you started if this is your first Flutter project:
+Felipe Ferreira Marques
+RM: 81695
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+André Negamine
+RM: 79776
