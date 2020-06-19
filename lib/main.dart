@@ -3,7 +3,6 @@ import 'package:ps_goodbot/screens/home_bot.dart';
 import 'package:ps_goodbot/screens/screen_advise.dart';
 import 'package:ps_goodbot/screens/screen_help.dart';
 import 'package:ps_goodbot/screens/screen_options.dart';
-import 'package:ps_goodbot/screens/screen_questions.dart';
 import 'package:ps_goodbot/screens/screen_bot_about.dart';
 import 'package:ps_goodbot/screens/screen_chat.dart';
 

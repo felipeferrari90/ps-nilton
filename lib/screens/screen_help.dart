@@ -44,9 +44,6 @@ class ScreenHelp extends StatelessWidget {
                   ),
               ),
               
-
-              Text("SAMU (Serviço de Atendimento Móvel de Urgência)"),
-              Text("Disque 192",textAlign: TextAlign.center),
               espaco(),
               Text("Você pode consultar especialistas também como psicólogos e psiquiatras."),
               Text("Lembre-se esses médicos estão agindo para te ajudar, você NÃO ESTÁ e NÃO É LOUCO"),
