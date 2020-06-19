@@ -75,7 +75,7 @@ class _ScreenOptionsState extends State<ScreenOptions> {
                   ),
                 ),
 
-                 Expanded(
+                 /*Expanded(
                   child: RaisedButton(
                     color: Color.fromRGBO(173, 181, 194, 1.0),
                     child: Center(
@@ -85,7 +85,7 @@ class _ScreenOptionsState extends State<ScreenOptions> {
                       Navigator.pushNamed(context,"/screen_pontos",arguments: username);
                     },
                   ),
-                ),
+                ),*/
              
          ],
        ), 
