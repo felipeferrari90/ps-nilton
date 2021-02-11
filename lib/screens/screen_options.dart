@@ -32,10 +32,20 @@ class _ScreenOptionsState extends State<ScreenOptions> {
                   child: RaisedButton(
                     color: Color.fromRGBO(173, 181, 194, 1.0),
                     child: Center(
-                      child: Text("SOBRE MIM")
+                      child: Row (
+                         children: <Widget>[
+                            Text("SOBRE MIM"),
+                             Center(
+                                child: Center( 
+                                child: Image.asset("assets/robo.png", 
+                                width: 40,),
+                            ),
+                          ),
+                         ],
+                      )
                     ),
                     onPressed: (){
-                      Navigator.pushNamed(context,"/about_me",arguments: username);
+                      Navigator.pushNamed(context,"/bot_about",arguments: username);
                     },
                   ),
                 ),
@@ -43,7 +53,17 @@ class _ScreenOptionsState extends State<ScreenOptions> {
                   child: RaisedButton(
                     color: Color.fromRGBO(177, 181, 184, 1.0),
                     child: Center(
-                      child: Text("Verifique se esta deprimido")
+                      child: Row (
+                         children: <Widget>[
+                            Text("FALAR COM O BOT"),
+                             Center(
+                                child: Center( 
+                                child: Image.asset("assets/robo.png", 
+                                width: 40,),
+                            ),
+                          ),
+                         ],
+                      )
                     ),
                     onPressed: (){
                       Navigator.pushNamed(context,"/bot_questoes",arguments: username);
@@ -56,7 +76,17 @@ class _ScreenOptionsState extends State<ScreenOptions> {
                   child: RaisedButton(
                     color: Color.fromRGBO(173, 181, 194, 1.0),
                     child: Center(
-                      child: Text("Ajuda Especializada")
+                      child: Row (
+                         children: <Widget>[
+                            Text("AJUDA ESPECIALIZADA"),
+                             Center(
+                                child: Center( 
+                                child: Image.asset("assets/robo.png", 
+                                width: 40,),
+                            ),
+                          ),
+                         ],
+                      )
                     ),
                      onPressed: (){
                       Navigator.pushNamed(context,"/bot_ajuda",arguments: username);
@@ -67,7 +97,17 @@ class _ScreenOptionsState extends State<ScreenOptions> {
                   child: RaisedButton(
                     color: Color.fromRGBO(177, 181, 184, 1.0),
                     child: Center(
-                      child: Text("Aconselhe Alguem")
+                      child: Row (
+                         children: <Widget>[
+                            Text("ACONSELHE ALGUEM"),
+                             Center(
+                                child: Center( 
+                                child: Image.asset("assets/robo.png", 
+                                width: 40,),
+                            ),
+                          ),
+                         ],
+                      )
                     ),
                      onPressed: (){
                       Navigator.pushNamed(context,"/bot_aconselhe_alguem",arguments: username);
@@ -75,17 +115,6 @@ class _ScreenOptionsState extends State<ScreenOptions> {
                   ),
                 ),
 
-                 Expanded(
-                  child: RaisedButton(
-                    color: Color.fromRGBO(173, 181, 194, 1.0),
-                    child: Center(
-                      child: Text("Historico de visitas")
-                    ),
-                     onPressed: (){
-                      Navigator.pushNamed(context,"/screen_pontos",arguments: username);
-                    },
-                  ),
-                ),
              
          ],
        ), 

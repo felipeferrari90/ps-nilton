@@ -25,11 +25,12 @@ class _HomeBotState extends State<HomeBot> {
           children: <Widget>[
              Center(
                 child: Center( 
-                  child: Image.asset("../assets/images/robo.png", scale: 0.15),
+                  child: Image.asset("assets/robo.png", 
+                  width: 70,),
                 ),
              ),
              SizedBox(
-                height: 100.0,
+                height: 30.0,
                 width: double.infinity,
                 child: Center( 
                   child:Text("NILTON 2.0", 

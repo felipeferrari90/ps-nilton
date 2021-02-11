@@ -28,7 +28,7 @@ class DatabaseHelper {
 
   Future<Database> _createDatabase() async {
     String databasesPath = await getDatabasesPath();
-    String dbPath = join(databasesPath, 'user.db');
+    String dbPath = join(databasesPath, 'cursos.db');
 
     var database = await openDatabase(
       dbPath,
@@ -43,10 +43,10 @@ class DatabaseHelper {
     // Criando a tabela de Cursos
     await database.execute(
       '''
-      CREATE TABLE UserModel (
+      CREATE TABLE MensagemModel (
         id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-        nome TEXT,
-        pontos INTEGER 
+        mensagem TEXT,
+        remetente TEXT
       )
       ''',
     );
